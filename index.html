@@ -17,7 +17,7 @@
   <div class="cart">
     <h2>🛒 Корзина (<span id="cart-count">0</span>)</h2>
     <ul id="cart-items"></ul>
-    <p>Итого: <span id="cart-total">0</span> ТГ</p>
+    <p>Итого: <span id="cart-total">0</span>ТГ</p>
     <button onclick="sendOrder()">📞 Заказать через WhatsApp</button>
   </div>
   
@@ -43,7 +43,7 @@
               <div class="item">
                 <img src="${item.image}" alt="${item.name}">
                 <div>
-                  <h3>${item.name} — ${item.price} ₽</h3>
+                  <h3>${item.name} — ${item.price} Тг</h3>
                   <p>${item.description}</p>
                   <button onclick="addToCart('${item.name}', ${item.price})">+ Добавить</button>
                 </div>
